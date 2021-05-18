@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>cardBack.png</file>
+        <file>J.png</file>
+        <file>I.png</file>
+        <file>H.png</file>
+        <file>G.png</file>
+        <file>F.png</file>
+        <file>E.png</file>
+        <file>D.png</file>
+        <file>C.png</file>
+        <file>B.png</file>
+        <file>A.png</file>
+        <file>checked.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,28 @@
+                                        -MEMORY CARD GAME-
+
+---How does it work ?----
+(1) Initialize the game by enter number of players, their names and number of cards (max 20)
+(2) In the UI, different componets are displayed:
+    - Current player's name(label) and point(LCDnumber) on the left
+    - Correct cards chosen by current player in the middle
+    - Feedback on the previous play on the right
+    - Grid layout to contain all the cards (both active and deactivated)
+    - Two buttons: Confirm (to end the turn) and Give up (to end the game and show the winner)
+(3) To play:
+    - Wait till your name displayed under the label "Current player".
+    - Choose 2 cards by clicking on them. Once a card was chosen, you can not click it again to toggle
+,i.e turn its face down. You can only proceed by Confirm (so the program can check your choice) or Give up
+and let the program tell you who is the winner.
+    - The turn is your as long as your previous choice was correct. The correct pairs of your will be displayed
+below the label "Correct pairs". The feedback on the right is of the latest choosing. Your point will also be updated.
+(4) If you have turned all the cards or chose to "Give up", there will be a message box with the conclusion and
+Ok button in it. Click the Okay button when you knew who won, the program will close right after that.
+
+---Extra Features---
+1. The game allows a variable number of players, and that number is asked from the user.(10p.)
+2. The user can name the players. (5 p.)
+3. The game status is shown graphically, for example with a QGraphicsView widget, which has space for each players’ card piles.
+    A pile grows when a player finds pairs. (10 p.)
+4. Besides the amounts of cards collected by each players, the program also tells, which cards each player has collected. (5 p.)
+8. There is a figure on the back of cards (the same figure on all cards). (10 p.)
+9. Instead of letters, there are figures on the face of cards. (20 p.) (I used figures of letters for easy debugging)
